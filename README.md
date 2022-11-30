@@ -1,12 +1,12 @@
 # proyectofinal
 
-## Repositorio:
+## Repositorio
 
 Este es el link de nuestro [repositorio](https://github.com/lauralardies/proyectofinal)
 
-## Integrantes:
+## Integrantes
 
 - [Carlota Sánchez](https://github.com/crltsnch) 
 - [Laura Rodríguez](https://github.com/lauralardies)
 
-## ¿En qué consiste esta tarea?
+## ¿En qué consiste este proyecto?
