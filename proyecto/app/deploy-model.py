@@ -6,7 +6,7 @@ import pickle
 
 st.set_page_config(layout='centered', page_icon='💸', page_title='¿Aceptarías la oferta?')
 
-st.title('Aplicación Realizada por Carlota Sánchez y Laura Rodríguez para ver si aceptarías la oferta de un banco para una tarjeta de crédito.')
+st.title('Aplicación realizada por Carlota Sánchez y Laura Rodríguez para ver si aceptarías la oferta de un banco para una tarjeta de crédito.')
 
 #st.image(Image.open('banco.png'))
 #st.sidebar.image(Image.open('uax.png'))
@@ -45,7 +45,6 @@ st.table(df)
 enviar = st.button('Enviar datos')
 
 if enviar:
-
     lr = pickle.load(open('../models/logisticregression.pkl', 'rb'))
     pred = lr.predict(df)
 
