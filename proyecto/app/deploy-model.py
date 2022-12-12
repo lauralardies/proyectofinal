@@ -8,8 +8,8 @@ st.set_page_config(layout='centered', page_icon='💸', page_title='¿Aceptaría
 
 st.title('Aplicación Realizada por Carlota Sánchez y Laura Rodríguez para ver si aceptarías la oferta de un banco para una tarjeta de crédito.')
 
-st.image(Image.open('src/images/cancer.png'))
-st.sidebar.image(Image.open('src/images/uax.png'))
+st.image(Image.open('../images/banco.webp'))
+st.sidebar.image(Image.open('../image/uax.jpeg'))
 st.subheader('A continuación introduce los siguiente datos para que la aplicación pueda realizar la predicción:')
 
 reward = float(st.text_input('Reward', 0))
